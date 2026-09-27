@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="rainbowRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00a8ff" />
+      <stop offset="25%" stop-color="#00e676" />
+      <stop offset="50%" stop-color="#ffd600" />
+      <stop offset="75%" stop-color="#ff7a00" />
+      <stop offset="100%" stop-color="#f85606" />
+    </linearGradient>
+    <linearGradient id="cartBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c0ff" />
+      <stop offset="100%" stop-color="#0055ff" />
+    </linearGradient>
+    <linearGradient id="cartOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9900" />
+      <stop offset="100%" stop-color="#ff3300" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean circle with rainbow ring border -->
+  <circle cx="256" cy="256" r="248" fill="#ffffff" stroke="url(#rainbowRing)" stroke-width="14" />
+  
+  <!-- Speed lines -->
+  <rect x="90" y="160" width="70" height="18" rx="9" fill="#00b0ff" />
+  <rect x="110" y="195" width="55" height="18" rx="9" fill="#00b0ff" />
+  <rect x="90" y="230" width="80" height="18" rx="9" fill="#00b0ff" />
+
+  <!-- Shopping Bags inside Cart -->
+  <polygon points="260,110 320,110 335,190 245,190" fill="#ffaa00" rx="6" />
+  <polygon points="310,130 360,130 370,190 300,190" fill="#00e676" rx="6" />
+
+  <!-- Stylized Shopping Cart S Curve Body -->
+  <path d="M 180,150 L 230,150 L 260,260 Q 320,300 370,240 Q 380,200 330,190 Q 260,180 230,270 L 330,270 Q 360,270 370,230" 
+        fill="none" stroke="url(#cartBlue)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <path d="M 240,240 L 340,240 L 330,285 L 250,285 Z" fill="url(#cartOrange)" opacity="0.9" />
+
+  <!-- Wheels -->
+  <circle cx="240" cy="320" r="20" fill="#0055ff" stroke="#ffffff" stroke-width="6" />
+  <circle cx="320" cy="320" r="20" fill="#0055ff" stroke="#ffffff" stroke-width="6" />
+
+  <!-- Typography below -->
+  <text x="256" y="400" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="44" text-anchor="middle" fill="#0a3871">
+    SmartShop<tspan fill="#f85606">X</tspan><tspan fill="#00a8ff" font-size="34">.bd</tspan>
+  </text>
+  <text x="256" y="435" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="16" text-anchor="middle" fill="#555555" letter-spacing="1">
+    Smart Choice, Better Life
+  </text>
+</svg>

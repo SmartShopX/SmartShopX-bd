@@ -1,0 +1,6 @@
+{
+  "name": "SmartShopX.bd - অনলাইন শপিং ও ডিজিটাল হিসাব",
+  "description": "SmartShopX.bd - বাংলাদেশের প্রিমিয়াম অনলাইন শপিং মার্কেটপ্লেস ও ডিজিটাল হিসাব খাতা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
